@@ -4,7 +4,32 @@
     <meta charset="UTF-8"> <!-- Dzięki temu Twoja strona będzie poprawnie wyświetlać polskie znaki (ą, ę, ć, ś, ł itd.) -->
     <title>Strona główna</title>
     <style>
-        body { background-color: #f4f4f4;}
+        /* zmieniamy czcionkę na łądniejszą */
+        body { 
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 50px;
+        }
+
+        /* zmieniamy kolor nagłówka*/
+        h1 {
+            color: #2c3e50;
+        }
+
+        /* dodajemy wygląd do linku zeby wygladal jak przycisk */
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        /* efekt najechania myszka na przycisk*/
+        a:hover {
+            background-color: #2980b9;
+        }
+
     </style>
 </head>
 <body>
